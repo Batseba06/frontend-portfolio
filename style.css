@@ -265,7 +265,38 @@ footer {
 .contact-info a:hover {
     text-decoration: underline;
 }
-/* Skills Page */
+
+.contact-card {
+      background: #fff;
+      padding: 20px 30px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+      width: 300px;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      color: #555;
+    }
+
+    .contact-item i {
+      font-size: 18px;
+      margin-right: 10px;
+      color: #FFB6C1;
+    }
+
+    .contact-item span {
+      font-size: 14px;
+    }
+
+    .contact-item strong {
+      display: block;
+      font-size: 14px;
+      color: #333;
+    }
+
 .skills-page {
     max-width: 700px;
     margin: 4rem auto;
