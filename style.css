@@ -24,8 +24,7 @@ body {
     z-index: 100;
     box-shadow: 0 2px 8px rgba(0,0,0,0.5);
 }
-
-.navbar .logo {
+.logo {
     font-size: 1.5rem;
     font-weight: bold;
     color: #FFB6C1;
@@ -340,9 +339,12 @@ footer {
 }
 
 .skill-level.html { width: 90%; background: linear-gradient(90deg, #FF6EC7, #9B30FF); }
-.skill-level.js { width: 75%; background: linear-gradient(90deg, #FFB6C1, #FF69B4); }
-.skill-level.vue { width: 60%; background: linear-gradient(90deg, #9B30FF, #FF6EC7); }
+.skill-level.js { width: 55%; background: linear-gradient(90deg, #FFB6C1, #FF69B4); }
+.skill-level.vue { width: 20%; background: linear-gradient(90deg, #9B30FF, #FF6EC7); }
 .skill-level.java { width: 50%; background: linear-gradient(90deg, #FF69B4, #FFB6C1); }
+.skill-level.mysql { width: 80%; background: linear-gradient(90deg, #FF69B4, #FFB6C1); }
+.skill-level.excel { width: 85%; background: linear-gradient(90deg, #FF69B4, #FFB6C1); }
+.skill-level.git { width: 80%; background: linear-gradient(90deg, #FF69B4, #FFB6C1); }
 
 /* Responsive */
 @media(max-width: 768px) {
