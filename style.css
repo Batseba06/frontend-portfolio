@@ -346,14 +346,33 @@ footer {
 .skill-level.excel { width: 85%; background: linear-gradient(90deg, #FF69B4, #FFB6C1); }
 .skill-level.git { width: 80%; background: linear-gradient(90deg, #FF69B4, #FFB6C1); }
 
-/* Responsive */
+
 @media(max-width: 768px) {
     .skills-page {
         padding: 0 1rem;
     }
 }
 
-/* Responsive */
+.images {
+  display: flex;
+  justify-content: center;   /* centers the row */
+  gap: 30px;                 /* space between images */
+  margin-top: 30px;
+  flex-wrap: wrap;           /* allows wrapping on smaller screens */
+}
+
+.images img {
+  width: 300px;              /* consistent size */
+  height: auto;              /* keeps proportions */
+  border-radius: 8px;        /* rounded corners */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* subtle shadow */
+  transition: transform 0.3s;
+}
+
+.images img:hover {
+  transform: scale(1.05);    /* zoom effect on hover */
+}
+
 @media(max-width: 768px) {
     .contact-page {
         padding: 2rem 1rem;
