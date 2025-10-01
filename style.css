@@ -147,27 +147,42 @@ ul {
   border-radius: 10px;
   text-align: center;
   width: 300px;
+  display: flex;
+  flex-direction: column; /* stack items vertically */
+  justify-content: space-between; /* push button to bottom */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-height: 400px; /* make all cards equal height */
 }
 
 .project-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 5px 20px rgba(255, 255, 255, 0.1);
 }
+.project-card h3,
+.project-card p {
+  flex-grow: 0;
+  margin: 0.5rem 0;
+}
 
 /* Project Icon */
 .project-icon {
-  width: 60px;
-  height: 60px;
-  object-fit: contain;
-  margin-bottom: 1rem;
+  font-size: 40px;
+  font-weight: bold;
+  color: #FF69B4;
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 10px;  /* 👈 Pushes icon down */
 }
+
+
+
 
 /* Title */
 .project-title {
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
-  color: #FF69B4;
+  color: #FFB6C1;
 }
 
 /* Description */
@@ -180,6 +195,7 @@ ul {
 
 /* Button */
 .project-button {
+  margin-top: auto; /* pushes button down */
   display: inline-block;
   padding: 0.5rem 1rem;
   background: #FF69B4;
@@ -191,9 +207,8 @@ ul {
 }
 
 .project-button:hover {
-  background: #FF69B4;
+  background: #ff4f9e;
 }
-
 footer {
     text-align: center;
     padding: 2rem;
