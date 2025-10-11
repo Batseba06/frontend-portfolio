@@ -94,7 +94,14 @@ body {
     height: 500px;
     border-radius: 50%;
     border: 5px solid #FF69B4;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
 }
+
+.hero-image img:hover {
+    border: 5px solid #ff1493;  /* Darker pink or any color you like */
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.7); /* Glow effect (optional) */
+}
+
 
 /* Sections */
 section {
@@ -491,7 +498,7 @@ footer {
 .edu-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(255, 182, 193, 0.4);
-
+}
 .edu-card h3 {
     color: #ff6b81;
     margin-bottom: 0.5rem;
